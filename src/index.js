@@ -1,14 +1,13 @@
 import { burger } from './modules/burger';
-import { renderSlider } from './modules/renderSlider';
 import { swiper } from './modules/swiper';
-import { scroll } from './modules/scroll';
-import { formModals } from './modules/formModals';
-import { makeBetValidation } from './modules/makeBetValidation';
-import { sendForm } from './modules/sendForm';
+import { services } from './modules/services'
+//import { scroll } from './modules/scroll';
+//import { sendForm } from './modules/sendForm';
 
 
 
-//burger();
+burger();
 //scroll();
-//swiper();
+swiper();
+services()
 //sendForm(document.querySelector('.bet__body'), 'https://jsonplaceholder.typicode.com/posts');

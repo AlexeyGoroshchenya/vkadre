@@ -4,18 +4,653 @@
 <head>
 	<title>VKADRE</title>
 	<link rel="shortcut icon" href="dist/img/favicon.ico">
-
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="dist/css/style.css" />
 	<link rel="stylesheet" href="dist/css/header.css" />
 	<link rel="stylesheet" href="dist/css/main.css" />
 	<link rel="stylesheet" href="dist/css/footer.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 	<script src="dist/js/main.js" defer></script>
 	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
 	<meta name="viewport" content="width=device-width">
 </head>
 
 <body>
+	<div class="body__wrapper">
+		<header class="header header__container">
+			<div class="header__logo"><a href="#home"><img src="dist/img/header/Logo.png" alt=""></a></div>
+			<div class="header__slogan">
+				<p>Качественные</p>
+				<p>фотографии</p>
+				<p>в кратчайшие сроки</p>
+			</div>
+			<div class="menu-header__button"> <span></span><span></span><span></span> </div>
+			<div class="header__menu menu-header">
 
+				<div class="menu-header__body">
+
+
+					<nav class="menu-header__list navmenu__list">
+						<ul class="menu-header__linkbox navmenu__linkbox">
+							<li class="menu-header__link navmenu__link"><a href="gallery.html">Портфолио</a> </li>
+							<li class="menu-header__link navmenu__link"><a href="services.html">Услуги</a> </li>
+							<li class="menu-header__link navmenu__link"><a href="location.html">Локации</a> </li>
+						</ul>
+					</nav>
+
+					<div class="header__contacts contacts">
+						<p><a href="tel:+79697327373">+79697327373</a></p>
+						<p> <a href="http://vk.com/vkadre_sochi">vk.com/vkadre_sochi</a> </p>
+						<p> <a href="mailto:eternal-sun@yandex.ru">eternal-sun@yandex.ru</a> </p>
+					</div>
+					<div class="header__user user-header">
+						<div class="user-header__logo"><a href="#"><img src="dist/img/header/user.png" alt=""></a></div>
+						<div class="user-header__title">Личный кабинет</div>
+					</div>
+				</div>
+
+			</div>
+
+
+
+		</header>
+		<main class="main " id="home">
+			<section class="cover cover__container">
+				<div class="cover__image image"><img src="dist/img/cover/cover.jpg" alt=""></div>
+				<div class="cover__content">
+					<div class="cover__title title">
+						Фотосессии №1
+						в Сочи, Адлере
+						и Красной поляне
+					</div>
+					<div class="cover__subtitles subtitles-cover">
+						<div class="subtitles-cover__item">
+							<p> <span>10 мин - 10 фото</span> </p>
+							<p>990 p.</p>
+						</div>
+						<div class="subtitles-cover__item">
+							<p> <span>20 мин - 20 фото</span> </p>
+							<p>1990 p.</p>
+						</div>
+						<div class="subtitles-cover__item">
+							Готовые фото на следующий день
+						</div>
+					</div>
+					<form action="#" class="cover__form">
+						<button type="submit" class="cover__button button">
+							Заказать Экспресс-фотосессию
+						</button>
+					</form>
+
+					<div class="cover__slider slider-cover ">
+						<div class="slider-cover__arrows arrows">
+							<div class="slider-cover__prev arrow__prev"><img src="dist/img/cover/Arrow.svg" alt="">
+							</div>
+							<div class="slider-cover__next arrow__next"><img src="dist/img/cover/Arrow.svg" alt="">
+							</div>
+						</div>
+						<div class="slider-cover__body swiper">
+							<div class="slider-cover__wrapper swiper-wrapper">
+								<div class="slider-cover__slide swiper-slide "><img src="dist/img/cover/1.jpg" alt="">
+								</div>
+								<div class="slider-cover__slide swiper-slide "><img src="dist/img/cover/2.jpg" alt="">
+								</div>
+								<div class="slider-cover__slide swiper-slide "><img src="dist/img/cover/3.jpg" alt="">
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+
+
+			<section class="about ">
+				<div class="about__container border">
+					<div class="about__textbox">
+						<div class="about__title title">О проекте</div>
+						<div class="about__text">Мы - команда профессиональных фотографов, и наш фотопроект
+							специализируется на организации и проведении индивидуальных и экспресс-фотосессий в самых
+							красивых локациях Сочи, Адлера и Красной поляны.
+						</div>
+					</div>
+
+					<div class="about__benefits benefits-about">
+						<div class="benefits-about__item">
+							<div class="benefits-about__logo">
+								<img src="dist/img/about/1.png" alt="">
+							</div>
+							<div class="benefits-about__textbox">
+								<div class="benefits-about__title">Доступно</div>
+								<div class="benefits-about__text">стоимость фотосессий от 990₽</div>
+
+							</div>
+						</div>
+						<div class="benefits-about__item">
+							<div class="benefits-about__logo">
+								<img src="dist/img/about/2.png" alt="">
+							</div>
+							<div class="benefits-about__textbox">
+								<div class="benefits-about__title">Быстро</div>
+								<div class="benefits-about__text">готовые фотографии вы получите уже на следующий день
+								</div>
+							</div>
+
+						</div>
+						<div class="benefits-about__item">
+							<div class="benefits-about__logo">
+								<img src="dist/img/about/3.png" alt="">
+							</div>
+							<div class="benefits-about__textbox">
+								<div class="benefits-about__title">Качественно</div>
+								<div class="benefits-about__text">мы снимаем на профессиональную топовую технику.
+
+								</div>
+							</div>
+
+						</div>
+						<div class="benefits-about__item">
+							<div class="benefits-about__logo">
+								<img src="dist/img/about/4.png" alt="">
+							</div>
+							<div class="benefits-about__textbox">
+								<div class="benefits-about__title">Индивидуально</div>
+								<div class="benefits-about__text">подходим к любому запросу и предоставляем весь спектр
+									качественных услуг
+
+								</div>
+							</div>
+
+						</div>
+
+
+
+
+					</div>
+					<div class="about__statistic statistic-about border">
+						<div class="statistic-about__item">
+							<div class="statistic-about__number">100</div>
+							<div class="statistic-about__text">Счастливых клиентов</div>
+						</div>
+						<div class="statistic-about__item">
+							<div class="statistic-about__number">100</div>
+							<div class="statistic-about__text">сделанных
+								фотографий</div>
+						</div>
+						<div class="statistic-about__item">
+							<div class="statistic-about__number">100</div>
+							<div class="statistic-about__text">проведённых
+								фотосессий</div>
+						</div>
+						<div class="statistic-about__item">
+							<div class="statistic-about__number">100</div>
+							<div class="statistic-about__text">авторских
+								фотопроекта</div>
+						</div>
+						<div class="statistic-about__item">
+							<div class="statistic-about__number">3<span>года</span></div>
+							<div class="statistic-about__text">активной работы</div>
+						</div>
+
+
+
+
+
+					</div>
+				</div>
+
+			</section>
+
+
+
+			<section class="gallery">
+				<div class="gallery__container border">
+					<div class="gallery__title title">Наши работы</div>
+					<div class="gallery__slider slider-gallery">
+						<div class="slider-gallery__body swiper">
+							<div class="slider-gallery__wrapper swiper-wrapper">
+								<div class="slider-gallery__item odd swiper-slide ">
+									<div class="slider-gallery__image image">
+										<a href="#">
+											<img src="dist/img/gallery/1.jpg" alt="">
+										</a>
+									</div>
+									<div class="slider-gallery__image image">
+										<a href="#">
+											<img src="dist/img/gallery/2.jpg" alt="">
+										</a>
+									</div>
+								</div>
+								<div class="slider-gallery__item even swiper-slide ">
+									<div class="slider-gallery__image image">
+										<a href="#">
+											<img src="dist/img/gallery/3.jpg" alt="">
+										</a>
+									</div>
+									<div class="slider-gallery__image image">
+										<a href="#">
+											<img src="dist/img/gallery/4.jpg" alt="">
+										</a>
+									</div>
+								</div>
+								<div class="slider-gallery__item odd swiper-slide ">
+									<div class="slider-gallery__image image">
+										<a href="#">
+											<img src="dist/img/gallery/5.jpg" alt="">
+										</a>
+									</div>
+									<div class="slider-gallery__image image">
+										<a href="#">
+											<img src="dist/img/gallery/6.jpg" alt="">
+										</a>
+									</div>
+								</div>
+								<div class="slider-gallery__item even swiper-slide ">
+									<div class="slider-gallery__image image">
+										<a href="#">
+											<img src="dist/img/gallery/7.jpg" alt="">
+										</a>
+									</div>
+									<div class="slider-gallery__image image">
+										<a href="#">
+											<img src="dist/img/gallery/8.jpg" alt="">
+										</a>
+									</div>
+								</div>
+								<div class="slider-gallery__item odd swiper-slide ">
+									<div class="slider-gallery__image image">
+										<a href="#">
+											<img src="dist/img/gallery/9.jpg" alt="">
+										</a>
+									</div>
+									<div class="slider-gallery__image image">
+										<a href="#">
+											<img src="dist/img/gallery/10.jpg" alt="">
+										</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="slider-gallery__arrows arrows">
+							<div class="slider-gallery__prev arrow__prev"><img src="dist/img/cover/Arrow.svg" alt="">
+							</div>
+							<div class="slider-gallery__next arrow__next"><img src="dist/img/cover/Arrow.svg" alt="">
+							</div>
+
+
+						</div>
+					</div>
+					<div class="gallery__button button">Смотреть все портфолио</div>
+				</div>
+			</section>
+
+			<section class="calendar">
+				<div class="calendar__container">
+
+				</div>
+			</section>
+
+			<section class="services">
+				<div class="services__container border">
+					<div class="services__list list-services">
+						<div class="list-services__title title">Услуги</div>
+						<ul class="list-services__list">
+							<li class="list-services__link list-services__link-active" serv-id="1">Экспресс-фотосессии
+							</li>
+							<li class="list-services__link" serv-id="2">Индивидуальные фотосессии</li>
+							<li class="list-services__link" serv-id="3">Экспресс-видеосъёмка
+							</li>
+							<li class="list-services__link" serv-id="4">Семейная фотосессия</li>
+							<li class="list-services__link" serv-id="5">Фотосессии в Красной поляне</li>
+							<li class="list-services__link" serv-id="6">Фотоконтент</li>
+							<li class="list-services__link" serv-id="7">Фотосессия Дня Рождения</li>
+							<li class="list-services__link" serv-id="8">Фотосессия беременности</li>
+							<li class="list-services__link" serv-id="9">Фотосессия Крещения</li>
+							<li class="list-services__link" serv-id="10">Love Story</li>
+							<li class="list-services__link" serv-id="11">Студийная фотосессия</li>
+						</ul>
+					</div>
+					<div class="services__description description-services">
+						<div class="description-services__item description-services__item-active" serv-id="1">
+							<div class="description-services__title title">Экспресс-фотосессии</div>
+							<div class="description-services__image image"><img src="dist/img/services/services-1.jpg"
+									alt=""></div>
+							<div class="description-services__textbox">
+								<div class="description-services__text">
+									<p>Самый доступный вид фотосессии, в результате которой Вы
+										получите качественные снимки уже на следующий день. Они проходят только по
+										нашему
+										расписанию.</p>
+
+									<p>
+										Фотографии с экспресс-фотосессий идеальны для публикаций в социальных сетях, для
+										резюме,
+										инстаграма, сайта знакомств и даже семейного альбома!</p>
+								</div>
+								<div class="description-services__prices">
+									<p><span>10 мин - 10 фото</span>990 руб.</p>
+									<p><span>20 минут - 20 фото</span>1990 руб.</p>
+									<p><span>30 минут - 30 фото</span>2990 руб.</p>
+									<p><span>Исходники (весь отснятый материал)</span>199 руб.</p>
+								</div>
+							</div>
+							<div class="description-services__button button">Заказать фотосессию</div>
+						</div>
+						<div class="description-services__item " serv-id="2">
+							<div class="description-services__title title">Индивидуальные фотосессии</div>
+							<div class="description-services__image image"><img src="dist/img/services/services-2.jpg"
+									alt=""></div>
+							<div class="description-services__textbox">
+								<div class="description-services__text">
+									<p>Самый доступный вид фотосессии, в результате которой Вы
+										получите качественные снимки уже на следующий день. Они проходят только по
+										нашему
+										расписанию.</p>
+
+									<p>
+										Фотографии с индивидуальных фотосессий идеальны для публикаций в социальных
+										сетях, для
+										резюме,
+										инстаграма, сайта знакомств и даже семейного альбома!</p>
+								</div>
+								<div class="description-services__prices">
+									<p><span>10 мин - 10 фото</span>990 руб.</p>
+									<p><span>20 минут - 20 фото</span>1990 руб.</p>
+									<p><span>30 минут - 30 фото</span>2990 руб.</p>
+									<p><span>Исходники (весь отснятый материал)</span>199 руб.</p>
+								</div>
+							</div>
+							<div class="description-services__button button">Заказать фотосессию</div>
+						</div>
+						<div class="description-services__item " serv-id="3">
+							<div class="description-services__title title">Экспресс-видеосъёмка</div>
+							<div class="description-services__image image"><img src="dist/img/services/services-3.jpg"
+									alt=""></div>
+							<div class="description-services__textbox">
+								<div class="description-services__text">
+									<p>Самый доступный вид фотосессии, в результате которой Вы
+										получите качественные снимки уже на следующий день. Они проходят только по
+										нашему
+										расписанию.</p>
+
+									<p>
+										Фотографии с индивидуальных фотосессий идеальны для публикаций в социальных
+										сетях, для
+										резюме,
+										инстаграма, сайта знакомств и даже семейного альбома!</p>
+								</div>
+								<div class="description-services__prices">
+									<p><span>10 мин - 10 фото</span>990 руб.</p>
+									<p><span>20 минут - 20 фото</span>1990 руб.</p>
+									<p><span>30 минут - 30 фото</span>2990 руб.</p>
+									<p><span>Исходники (весь отснятый материал)</span>199 руб.</p>
+								</div>
+							</div>
+							<div class="description-services__button button">Заказать фотосессию</div>
+						</div>
+						<div class="description-services__item " serv-id="4">
+							<div class="description-services__title title">Семейная фотосессия</div>
+							<div class="description-services__image image"><img src="dist/img/services/services-4.jpg"
+									alt=""></div>
+							<div class="description-services__textbox">
+								<div class="description-services__text">
+									<p>Самый доступный вид фотосессии, в результате которой Вы
+										получите качественные снимки уже на следующий день. Они проходят только по
+										нашему
+										расписанию.</p>
+
+									<p>
+										Фотографии с индивидуальных фотосессий идеальны для публикаций в социальных
+										сетях, для
+										резюме,
+										инстаграма, сайта знакомств и даже семейного альбома!</p>
+								</div>
+								<div class="description-services__prices">
+									<p><span>10 мин - 10 фото</span>990 руб.</p>
+									<p><span>20 минут - 20 фото</span>1990 руб.</p>
+									<p><span>30 минут - 30 фото</span>2990 руб.</p>
+									<p><span>Исходники (весь отснятый материал)</span>199 руб.</p>
+								</div>
+							</div>
+							<div class="description-services__button button">Заказать фотосессию</div>
+						</div>
+						<div class="description-services__item " serv-id="5">
+							<div class="description-services__title title">Фотосессия в Красной поляне</div>
+							<div class="description-services__image image"><img src="dist/img/services/services-5.jpg"
+									alt=""></div>
+							<div class="description-services__textbox">
+								<div class="description-services__text">
+									<p>Самый доступный вид фотосессии, в результате которой Вы
+										получите качественные снимки уже на следующий день. Они проходят только по
+										нашему
+										расписанию.</p>
+
+									<p>
+										Фотографии с индивидуальных фотосессий идеальны для публикаций в социальных
+										сетях, для
+										резюме,
+										инстаграма, сайта знакомств и даже семейного альбома!</p>
+								</div>
+								<div class="description-services__prices">
+									<p><span>10 мин - 10 фото</span>990 руб.</p>
+									<p><span>20 минут - 20 фото</span>1990 руб.</p>
+									<p><span>30 минут - 30 фото</span>2990 руб.</p>
+									<p><span>Исходники (весь отснятый материал)</span>199 руб.</p>
+								</div>
+							</div>
+							<div class="description-services__button button">Заказать фотосессию</div>
+						</div>
+						<div class="description-services__item " serv-id="6">
+							<div class="description-services__title title">Фотоконтент</div>
+							<div class="description-services__image image"><img src="dist/img/services/services-6.jpg"
+									alt=""></div>
+							<div class="description-services__textbox">
+								<div class="description-services__text">
+									<p>Самый доступный вид фотосессии, в результате которой Вы
+										получите качественные снимки уже на следующий день. Они проходят только по
+										нашему
+										расписанию.</p>
+
+									<p>
+										Фотографии с индивидуальных фотосессий идеальны для публикаций в социальных
+										сетях, для
+										резюме,
+										инстаграма, сайта знакомств и даже семейного альбома!</p>
+								</div>
+								<div class="description-services__prices">
+									<p><span>10 мин - 10 фото</span>990 руб.</p>
+									<p><span>20 минут - 20 фото</span>1990 руб.</p>
+									<p><span>30 минут - 30 фото</span>2990 руб.</p>
+									<p><span>Исходники (весь отснятый материал)</span>199 руб.</p>
+								</div>
+							</div>
+							<div class="description-services__button button">Заказать фотосессию</div>
+						</div>
+						<div class="description-services__item " serv-id="7">
+							<div class="description-services__title title">Фотосессия Дня Рождения</div>
+							<div class="description-services__image image"><img src="dist/img/services/services-7.jpg"
+									alt="" style="object-position: 0px 30%;"></div>
+							<div class="description-services__textbox">
+								<div class="description-services__text">
+									<p>Самый доступный вид фотосессии, в результате которой Вы
+										получите качественные снимки уже на следующий день. Они проходят только по
+										нашему
+										расписанию.</p>
+
+									<p>
+										Фотографии с индивидуальных фотосессий идеальны для публикаций в социальных
+										сетях, для
+										резюме,
+										инстаграма, сайта знакомств и даже семейного альбома!</p>
+								</div>
+								<div class="description-services__prices">
+									<p><span>10 мин - 10 фото</span>990 руб.</p>
+									<p><span>20 минут - 20 фото</span>1990 руб.</p>
+									<p><span>30 минут - 30 фото</span>2990 руб.</p>
+									<p><span>Исходники (весь отснятый материал)</span>199 руб.</p>
+								</div>
+							</div>
+							<div class="description-services__button button">Заказать фотосессию</div>
+						</div>
+						<div class="description-services__item " serv-id="8">
+							<div class="description-services__title title">Фотосессия беременности</div>
+							<div class="description-services__image image"><img src="dist/img/services/services-8.jpg"
+									alt=""></div>
+							<div class="description-services__textbox">
+								<div class="description-services__text">
+									<p>Самый доступный вид фотосессии, в результате которой Вы
+										получите качественные снимки уже на следующий день. Они проходят только по
+										нашему
+										расписанию.</p>
+
+									<p>
+										Фотографии с индивидуальных фотосессий идеальны для публикаций в социальных
+										сетях, для
+										резюме,
+										инстаграма, сайта знакомств и даже семейного альбома!</p>
+								</div>
+								<div class="description-services__prices">
+									<p><span>10 мин - 10 фото</span>990 руб.</p>
+									<p><span>20 минут - 20 фото</span>1990 руб.</p>
+									<p><span>30 минут - 30 фото</span>2990 руб.</p>
+									<p><span>Исходники (весь отснятый материал)</span>199 руб.</p>
+								</div>
+							</div>
+							<div class="description-services__button button">Заказать фотосессию</div>
+						</div>
+						<div class="description-services__item " serv-id="9">
+							<div class="description-services__title title">Фотосессия Крещения</div>
+							<div class="description-services__image image"><img src="dist/img/services/services-9.jpg"
+									alt=""></div>
+							<div class="description-services__textbox">
+								<div class="description-services__text">
+									<p>Самый доступный вид фотосессии, в результате которой Вы
+										получите качественные снимки уже на следующий день. Они проходят только по
+										нашему
+										расписанию.</p>
+
+									<p>
+										Фотографии с индивидуальных фотосессий идеальны для публикаций в социальных
+										сетях, для
+										резюме,
+										инстаграма, сайта знакомств и даже семейного альбома!</p>
+								</div>
+								<div class="description-services__prices">
+									<p><span>10 мин - 10 фото</span>990 руб.</p>
+									<p><span>20 минут - 20 фото</span>1990 руб.</p>
+									<p><span>30 минут - 30 фото</span>2990 руб.</p>
+									<p><span>Исходники (весь отснятый материал)</span>199 руб.</p>
+								</div>
+							</div>
+							<div class="description-services__button button">Заказать фотосессию</div>
+						</div>
+						<div class="description-services__item " serv-id="10">
+							<div class="description-services__title title">Love Story</div>
+							<div class="description-services__image image"><img src="dist/img/services/services-10.jpg"
+									alt=""></div>
+							<div class="description-services__textbox">
+								<div class="description-services__text">
+									<p>Самый доступный вид фотосессии, в результате которой Вы
+										получите качественные снимки уже на следующий день. Они проходят только по
+										нашему
+										расписанию.</p>
+
+									<p>
+										Фотографии с индивидуальных фотосессий идеальны для публикаций в социальных
+										сетях, для
+										резюме,
+										инстаграма, сайта знакомств и даже семейного альбома!</p>
+								</div>
+								<div class="description-services__prices">
+									<p><span>10 мин - 10 фото</span>990 руб.</p>
+									<p><span>20 минут - 20 фото</span>1990 руб.</p>
+									<p><span>30 минут - 30 фото</span>2990 руб.</p>
+									<p><span>Исходники (весь отснятый материал)</span>199 руб.</p>
+								</div>
+							</div>
+							<div class="description-services__button button">Заказать фотосессию</div>
+						</div>
+						<div class="description-services__item " serv-id="11">
+							<div class="description-services__title title">Студийная фотосессия</div>
+							<div class="description-services__image image"><img src="dist/img/services/services-11.jpg"
+									alt=""></div>
+							<div class="description-services__textbox">
+								<div class="description-services__text">
+									<p>Самый доступный вид фотосессии, в результате которой Вы
+										получите качественные снимки уже на следующий день. Они проходят только по
+										нашему
+										расписанию.</p>
+
+									<p>
+										Фотографии с индивидуальных фотосессий идеальны для публикаций в социальных
+										сетях, для
+										резюме,
+										инстаграма, сайта знакомств и даже семейного альбома!</p>
+								</div>
+								<div class="description-services__prices">
+									<p><span>10 мин - 10 фото</span>990 руб.</p>
+									<p><span>20 минут - 20 фото</span>1990 руб.</p>
+									<p><span>30 минут - 30 фото</span>2990 руб.</p>
+									<p><span>Исходники (весь отснятый материал)</span>199 руб.</p>
+								</div>
+							</div>
+							<div class="description-services__button button">Заказать фотосессию</div>
+						</div>
+						<div class="description-services__more button">Смотреть все услуги</div>
+
+					</div>
+				</div>
+			</section>
+			<section class="location">
+				<div class="location__container">
+
+				</div>
+			</section>
+
+			<section class="team">
+				<div class="team__container">
+
+				</div>
+			</section>
+
+			<section class="reviews">
+				<div class="reviews__container">
+
+				</div>
+			</section>
+
+			<section class="faq">
+				<div class="faq__container">
+
+				</div>
+			</section>
+
+
+		</main>
+		<footer class="footer footer__container">
+			<nav class="menu-footer__list navmenu__list">
+				<ul class="menu-footer__linkbox navmenu__linkbox">
+					<li class="menu-footer__link navmenu__link"><a href="gallery.html">Портфолио</a> </li>
+					<li class="menu-footer__link navmenu__link"><a href="services.html">Услуги</a> </li>
+					<li class="menu-footer__link navmenu__link"><a href="location.html">Локации</a> </li>
+				</ul>
+			</nav>
+			<div class="footer__contacts contacts">
+				<p><a href="tel:+79697327373">+79697327373</a></p>
+				<p> <a href="http://vk.com/vkadre_sochi">vk.com/vkadre_sochi</a> </p>
+				<p> <a href="mailto:eternal-sun@yandex.ru">eternal-sun@yandex.ru</a> </p>
+			</div>
+			<div class="footer__copyrigth">2022 © VKADRE.RU</div>
+		</footer>
+
+
+
+	</div>
 </body>
 
 </html>
