@@ -102,6 +102,10 @@ body {
 
 }
 
+a {
+  color: #171A1E;
+}
+
 .body__wrapper {
   display: flex;
   flex-direction: column;
@@ -115,8 +119,7 @@ body {
   max-width: 1280px;
   padding: 0 15px;
   margin: 0 auto;
-  border-left: 1px solid red;
-  border-right: 1px solid red;
+
 }
 
 @media (max-width: 1023.98px) {
@@ -173,6 +176,21 @@ body {
 
 }
 
+.section-title {
+  font-size: 32px;
+
+}
+
+
+
+@media (max-width: 1440px) {
+
+  .section-title {
+    font-size: calc(24px + (32 - 24)*((100vw - 320px)/(1440 - 320)));
+
+  }
+}
+
 .button {
   padding: 18px 40px;
   font-size: 12px;
@@ -210,6 +228,7 @@ body {
   height: 100%;
   object-fit: cover;
   object-position: center;
+
 }
 
 /*============================================================================*/
@@ -289,6 +308,31 @@ body {
   padding-top: 20px;
 }
 
+.screen-filter {
+  display: flex;
+  padding-top: 40px;
+  flex-wrap: wrap;
+}
+
+.screen-filter__item {
+  padding-right: 30px;
+  padding-bottom: 15px;
+  opacity: 0.5;
+  transition-duration: 00.3s;
+  cursor: pointer;
+}
+
+.screen-filter__item:hover {
+  opacity: 1;
+}
+
+.screen-filter__item-active {
+  opacity: 1;
+}
+
+
+.screen-filter__all {}
+
 .screen__items {
   display: flex;
   flex-wrap: wrap;
@@ -360,6 +404,21 @@ body {
   padding-top: 30px;
 }
 
+.item-location {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.item-location__pic {
+  max-width: 20px;
+
+}
+
+.item-location__name {
+  padding-left: 15px;
+
+}
 
 .item-screen__text {
   padding-top: 20px;

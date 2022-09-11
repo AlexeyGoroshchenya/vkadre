@@ -1,0 +1,79 @@
+{
+    "events": [
+        {
+            "id": 1,
+            "customerName": "Саша",
+            "customerPhone": "+375299898987",
+            "customerEmail": "sasha@sasha.ru",
+            "locationCity": "Сочи",
+            "locationName": "Парк Южные культуры",
+            "sessionName": "Цветение магнолий",
+            "type": "Экспресс-фотосъемка",
+            "month": "09",
+            "year": "2022",
+            "date": "16.09.2022",
+            "timeStart": "16:00",
+            "timeEnd": "17:00"
+        },
+        {
+            "id": 2,
+            "customerName": "Маша",
+            "customerPhone": "+375297898987",
+            "customerEmail": "masha@masha.ru",
+            "locationCity": "Сочи",
+            "locationName": "Парк Южные культуры",
+            "sessionName": "Цветение магнолий",
+            "type": "Экспресс-фотосъемка",
+            "month": "09",
+            "year": "2022",
+            "date": "16.09.2022",
+            "timeStart": "18:00",
+            "timeEnd": "19:00"
+        },
+        {
+            "id": 3,
+            "customerName": "Маша",
+            "customerPhone": "+375297898987",
+            "customerEmail": "masha@masha.ru",
+            "locationCity": "Сочи",
+            "locationName": "Парк Южные культуры",
+            "sessionName": "Цветение магнолий",
+            "type": "Экспресс-фотосъемка",
+            "month": "08",
+            "year": "2022",
+            "date": "07.08.2022",
+            "timeStart": "18:00",
+            "timeEnd": "19:00"
+        },
+        {
+            "id": 4,
+            "customerName": "Маша",
+            "customerPhone": "+375297898987",
+            "customerEmail": "masha@masha.ru",
+            "locationCity": "Сочи",
+            "locationName": "Парк Южные культуры",
+            "sessionName": "Цветение магнолий",
+            "type": "Экспресс-фотосъемка",
+            "month": "09",
+            "year": "2022",
+            "date": "07.09.2022",
+            "timeStart": "18:00",
+            "timeEnd": "19:00"
+        },
+        {
+            "id": 5,
+            "customerName": "Маша",
+            "customerPhone": "+375297898987",
+            "customerEmail": "masha@masha.ru",
+            "locationCity": "Сочи",
+            "locationName": "Парк Южные культуры",
+            "sessionName": "Цветение магнолий",
+            "type": "Экспресс-фотосъемка",
+            "month": "09",
+            "year": "2022",
+            "date": "25.09.2022",
+            "timeStart": "18:00",
+            "timeEnd": "19:00"
+        }
+    ]
+}

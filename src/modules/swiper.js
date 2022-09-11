@@ -65,5 +65,79 @@ export const swiper = () => {
     }
     );
 
+    const swiperLocation = new Swiper('.location__slider', {
+        slidesPerView: 1.3,
+        spaceBetween: 25,
+        loop: true,
+        modules: [Autoplay, Navigation],
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: true,
+            stopOnLastSlide: false,
+        },
+
+        navigation: {
+            nextEl: '.location__next',
+            prevEl: '.location__prev',
+        },
+        breakpoints: {
+
+            767.98: {
+                slidesPerView: 3,
+            },
+        }
+
+    }
+    );
+
+    const swiperTeam = new Swiper('.team__slider', {
+        slidesPerView: 1.3,
+        spaceBetween: 25,
+        loop: true,
+        modules: [Autoplay, Navigation],
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: true,
+            stopOnLastSlide: false,
+        },
+
+        navigation: {
+            nextEl: '.team__next',
+            prevEl: '.team__prev',
+        },
+        breakpoints: {
+
+            767.98: {
+                slidesPerView: 4,
+            },
+        }
+
+    }
+    );
+
+    const swiperReviews = new Swiper('.reviews__slider', {
+        slidesPerView: 1.1,
+        spaceBetween: 25,
+        loop: true,
+        modules: [Autoplay, Navigation],
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: true,
+            stopOnLastSlide: false,
+        },
+
+        navigation: {
+            nextEl: '.reviews__next',
+            prevEl: '.reviews__prev',
+        },
+        breakpoints: {
+
+            767.98: {
+                slidesPerView: 1,
+            },
+        }
+
+    }
+    );
 
 }

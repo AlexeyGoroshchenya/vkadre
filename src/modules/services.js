@@ -33,7 +33,7 @@ export const services = () => {
 
     const rotateScreenToAlbum = () => {
 
-        console.log(servicesBlock.querySelectorAll('.description-services__item').length);
+
         if (servicesBlock.querySelectorAll('.description-services__item').length == activeServiceId) {
             hideButton()
         }
